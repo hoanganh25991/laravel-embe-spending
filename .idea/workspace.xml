@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cc915078-84d1-4ae3-9252-ec2b0f9131e3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/SpendController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/SpendController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/spends/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/spends/index.blade.php" />
     </list>
     <ignored path="laravel-embe-spending.iws" />
@@ -26,14 +25,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SpendController.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SpendController.php">
+      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/spends/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="17" column="59" selection-start-line="17" selection-start-column="59" selection-end-line="17" selection-end-column="59" />
-              <folding>
-                <element signature="e#40#54#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="352">
+              <caret line="10" column="141" selection-start-line="10" selection-start-column="141" selection-end-line="10" selection-end-column="141" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -59,8 +56,8 @@
         <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
         <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/config/database.php" />
-        <option value="$PROJECT_DIR$/resources/views/spends/index.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/SpendController.php" />
+        <option value="$PROJECT_DIR$/resources/views/spends/index.blade.php" />
       </list>
     </option>
   </component>
@@ -69,6 +66,9 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpServers">
+    <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
@@ -379,16 +379,16 @@
       <updated>1467769190579</updated>
       <workItem from="1467769191944" duration="55000" />
       <workItem from="1467769331249" duration="3827000" />
-      <workItem from="1467855164887" duration="45000" />
+      <workItem from="1467855164887" duration="713000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3927000" />
+    <option name="totallyTimeSpent" value="4595000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1554" height="916" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26037484" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -398,7 +398,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3299363" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299363" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -412,6 +412,14 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -424,17 +432,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="23" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
-          <folding>
-            <marker date="1467772575989" expanded="true" signature="44:1246" ph="..." />
-            <marker date="1467772575989" expanded="true" signature="71:1244" ph="..." />
-            <marker date="1467772575989" expanded="true" signature="97:1233" ph="..." />
-            <marker date="1467772575989" expanded="true" signature="149:1218" ph="..." />
-            <marker date="1467772575989" expanded="true" signature="189:567" ph="..." />
-            <marker date="1467772575989" expanded="true" signature="290:513" ph="..." />
-            <marker date="1467772575989" expanded="true" signature="634:1199" ph="..." />
-            <marker date="1467772575989" expanded="true" signature="679:861" ph="..." />
-            <marker date="1467772575989" expanded="true" signature="906:1110" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -610,31 +608,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/spends/index.blade.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SpendController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+        <state relative-caret-position="256">
+          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
           <folding>
-            <marker date="1467772575989" expanded="true" signature="44:1246" ph="..." />
-            <marker date="1467772575989" expanded="true" signature="71:1244" ph="..." />
-            <marker date="1467772575989" expanded="true" signature="97:1233" ph="..." />
-            <marker date="1467772575989" expanded="true" signature="149:1218" ph="..." />
-            <marker date="1467772575989" expanded="true" signature="189:567" ph="..." />
-            <marker date="1467772575989" expanded="true" signature="290:513" ph="..." />
-            <marker date="1467772575989" expanded="true" signature="634:1199" ph="..." />
-            <marker date="1467772575989" expanded="true" signature="679:861" ph="..." />
-            <marker date="1467772575989" expanded="true" signature="906:1110" ph="..." />
+            <marker date="1467855207912" expanded="true" signature="44:222" ph="..." />
+            <marker date="1467855207912" expanded="true" signature="265:1035" ph="{...}" />
+            <marker date="1467855207912" expanded="true" signature="296:483" ph="..." />
+            <marker date="1467855207912" expanded="true" signature="528:751" ph="..." />
+            <marker date="1467855207912" expanded="true" signature="803:977" ph="..." />
+            <marker date="1467855207912" expanded="true" signature="893:932" ph="..." />
+            <marker date="1467855207912" expanded="true" signature="1027:1032" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SpendController.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/spends/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="17" column="59" selection-start-line="17" selection-start-column="59" selection-end-line="17" selection-end-column="59" />
-          <folding>
-            <element signature="e#40#54#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="352">
+          <caret line="10" column="141" selection-start-line="10" selection-start-column="141" selection-end-line="10" selection-end-column="141" />
+          <folding />
         </state>
       </provider>
     </entry>

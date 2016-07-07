@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cc915078-84d1-4ae3-9252-ec2b0f9131e3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/spends/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/spends/index.blade.php" />
     </list>
     <ignored path="laravel-embe-spending.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,8 +27,8 @@
       <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/spends/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="10" column="141" selection-start-line="10" selection-start-column="141" selection-end-line="10" selection-end-column="141" />
+            <state relative-caret-position="192">
+              <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -379,12 +378,12 @@
       <updated>1467769190579</updated>
       <workItem from="1467769191944" duration="55000" />
       <workItem from="1467769331249" duration="3827000" />
-      <workItem from="1467855164887" duration="742000" />
+      <workItem from="1467855164887" duration="847000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4624000" />
+    <option name="totallyTimeSpent" value="4729000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1554" height="916" extended-state="6" />
@@ -626,8 +625,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/spends/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="10" column="141" selection-start-line="10" selection-start-column="141" selection-end-line="10" selection-end-column="141" />
+        <state relative-caret-position="192">
+          <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
           <folding />
         </state>
       </provider>

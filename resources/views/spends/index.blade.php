@@ -7,7 +7,7 @@
                 <ul class="list-group">
                     @foreach($spends as $spend)
                         <li class="list-group-item">
-                            <span class="badge">{{$spend->money}}</span> | {{$spend->description}}
+                            <span class="label label-default">{{$spend->money}}</span> | {{$spend->description}}
                             <span><a href="{{action("SpendController@delete", ["id" => $spend->id])}}"><span class="glyphicon glyphicon-trash"></span></a></span>
                         </li>
                     @endforeach

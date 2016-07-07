@@ -14,7 +14,8 @@ use Illuminate\Support\Facades\View;
 class SpendController extends Controller
 {
     public function index(){
-        $spends = Spend::all();
+        $user = Auth::user();
+        $spends = Spend::where("user_id", $user->id)->get();
         $view = View::make("spends.index");
         return $view->with(compact("spends"));
     }

@@ -15,7 +15,9 @@ class SpendController extends Controller
 {
     public function index(){
         $user = Auth::user();
-        $spends = Spend::where("user_id", $user->id)->paginate(15);
+        $spends = Spend::where("user_id", $user->id)
+            ->orderBy("updated_at", "desc")
+            ->paginate(15);
         $view = View::make("spends.index");
         return $view->with(compact("spends"));
     }

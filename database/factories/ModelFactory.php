@@ -23,6 +23,7 @@ $factory->define(App\User::class, function (Faker\Generator $faker) {
 $factory->define(App\Spend::class, function (Faker\Generator $faker) {
     return [
         'money' => $faker->numberBetween(10, 500),
-        'description' => $faker->paragraphs
+        'description' => $faker->paragraph,
+        "user_id" => 1
     ];
 });

@@ -12,6 +12,7 @@
                         </li>
                     @endforeach
                 </ul>
+                {!! $spends->render() !!}
                 <form method="GET" action="{{url("spends/add")}}">
                     <div class="form-group">
                         <label for="money">money</label>

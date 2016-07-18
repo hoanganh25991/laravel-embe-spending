@@ -13,7 +13,7 @@ $uri = urldecode(
 
 //when host on linux, url www.example.com/embe-spends
 //$uri = /embe-spends/path/to/sth
-$uri = str_replace("embe-spends", "", $uri); // /paht/to/sth
+//$uri = str_replace("embe-spends", "", $uri); // /paht/to/sth
 
 // This file allows us to emulate Apache's "mod_rewrite" functionality from the
 // built-in PHP web server. This provides a convenient way to test a Laravel

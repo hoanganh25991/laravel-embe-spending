@@ -13,12 +13,19 @@ use Illuminate\Support\Facades\View;
 
 class SpendController extends Controller
 {
+    protected $user;
+
+    public function __construct(){
+        $this->user = Auth::user();
+    }
+
     public function index(){
         $user = Auth::user();
         $spends = Spend::where("user_id", $user->id)
             ->orderBy("updated_at", "desc")
-            ->paginate(15);
+            ->paginate(5);
         $view = View::make("spends.index");
+
         return $view->with(compact("spends"));
     }
 
@@ -42,5 +49,34 @@ class SpendController extends Controller
     }
     
     public function edit(Request $request){
+    }
+
+    public function summary(Request $request){
+        $user = Auth::user();
+
+        $type = $request->get("type");
+
+        $byDayRecords = Spend::thisUser($user->id)
+            ->thisMonth()
+            ->selectRaw('DAY(created_at) as day, sum(money) as spends')
+            ->groupBy("day")
+            ->pluck("spends", "day");
+
+        $byMonthRecords = Spend::thisUser($user->id)
+            ->lastTwoMonths()
+            ->selectRaw('MONTH(created_at) as month, sum(money) as spends')
+            ->groupBy("month")
+            ->pluck("spends", "month");
+
+        if($type == "day"){
+            return $byDayRecords;
+        }
+
+        if($type == "month"){
+            return $byMonthRecords;
+        }
+
+        //default when $type == null
+        return $byDayRecords;
     }
 }

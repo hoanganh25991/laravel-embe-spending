@@ -25,6 +25,7 @@ Route::group(["middleware" => "auth"], function(){
     Route::get("spends/add", "SpendController@add");
     Route::get("spends/delete", "SpendController@delete");
     Route::get("spends/edit", "SpendController@edit");
+    Route::get("spends/summary", "SpendController@summary");
 });
 
 

@@ -3,6 +3,7 @@
 Easy to track your spends, then visualize with useful charts.
 
 ![image](http://hoanganh25991.github.io/images/embe-spends-2016-07-21_115411.png | width=100)
+<img src="http://hoanganh25991.github.io/images/embe-spends-2016-07-21_115411.png" data-canonical-src="http://hoanganh25991.github.io/images/embe-spends-2016-07-21_115411.png" width="200" height="400" />
 
 [application-link](128.199.237.219/embe-spends)
 

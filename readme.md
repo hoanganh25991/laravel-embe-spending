@@ -2,7 +2,7 @@
 
 Easy to track your spends, then visualize with useful charts.
 
-![image](http://hoanganh25991.github.io/images/embe-spends-2016-07-21_115411.png)
+![image](http://hoanganh25991.github.io/images/embe-spends-2016-07-21_115411.png | width=100)
 
 [application-link](128.199.237.219/embe-spends)
 

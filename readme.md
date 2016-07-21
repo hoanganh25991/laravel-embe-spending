@@ -1,7 +1,9 @@
 # Manage your spends
 
 Easy to track your spends, then visualize with useful charts.
-![image]()
+
+![image](http://hoanganh25991.github.io/images/embe-spends-2016-07-21_115411.png)
+
 [application-link](128.199.237.219/embe-spends)
 
 # Thanks to Laravel & Laracast
